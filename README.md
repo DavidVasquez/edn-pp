@@ -4,13 +4,11 @@ EDN command-line pretty printer
 
 ## Installation
 
-```lein uberjar```
-
-And symlink the path to the 'target/*-standalone.jar' to something in your path
+```make install```
 
 ## Usage
 
-curl http://some-server.com/employees | edn
+curl http://some-server.com/employees | edn-pp
 
 ```
 {:data
